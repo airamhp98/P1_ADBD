@@ -77,7 +77,9 @@ Atributos:
 - **Fax:** Fax del laboratorio.
   - Dominio: Cadena numérica que contiene un número de fax.
   - Ejemplo: +34 917123456
-
+- **Nombre persona:** Nombre de la persona responsable del laboratorio
+  - Dominio: Cadena de texto que representa el nombre del responsable.
+  - Ejemplo: Roberto Hernández
 ## Relaciones Definidas:
 ### Cliente Compra Medicamento
 Cardinalidad: Un cliente puede comprar muchos medicamentos (1,N), y un medicamento puede ser comprado por muchos clientes (N,N).
