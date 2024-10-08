@@ -98,8 +98,7 @@ Cardinalidad: Un medicamento puede sustituir a otros medicamentos (1,N), y un me
 Descripción: Relación que indica si un medicamento puede ser sustituido por otro en caso de no estar disponible.
 
 ## Restricciones Semánticas Propuestas:
--Clientes sin crédito no pueden realizar compras a crédito: Esta restricción asegura que solo los clientes que tienen crédito asignado puedan optar por este método de pago.
--Un medicamento solo puede ser fabricado por un único laboratorio a la vez: Asegura que cada medicamento tiene un fabricante exclusivo, eliminando ambigüedades en la producción.
--Un medicamento no puede sustituirse a sí mismo: Impide que un medicamento esté registrado como su propio sustituto.
--El precio del medicamento no puede ser negativo: Para garantizar la validez de los datos, se debe asegurar que el precio de cualquier medicamento sea un valor positivo.
--Una farmacia no puede vender medicamentos que no tenga en inventario: Restricción que verifica que una farmacia solo pueda vender medicamentos que están disponibles en su inventario.
+- Clientes sin crédito no pueden realizar compras a crédito: Esta restricción asegura que solo los clientes que tienen crédito asignado puedan optar por este método de pago.
+- Un medicamento no puede sustituirse a sí mismo: Impide que un medicamento esté registrado como su propio sustituto.
+- El precio del medicamento no puede ser negativo: Para garantizar la validez de los datos, se debe asegurar que el precio de cualquier medicamento sea un valor positivo.
+- Una farmacia no puede vender medicamentos que no tenga en inventario: Restricción que verifica que una farmacia solo pueda vender medicamentos que están disponibles en su inventario.
