@@ -54,6 +54,12 @@ Atributos:
 - **Unidades:** Cantidad de unidades disponibles o vendidas.
   - Dominio: Número entero positivo que indica la cantidad de unidades disponibles o vendidas.
   - Ejemplo: 100 unidades
+- **Fecha de compra:** Cuándo se realizó la compra del medicamento.
+  - Dominio: Cadena del tipo date que representa una fecha válida
+  - Ejemplo: 07/10/2024
+- **Forma de venta:** Forma de venta del medicamento.
+  - Dominio: Cadena de caracteres que representa cómo se vendió el medicamento.
+  - Ejemplo: Efectivo
 ### Laboratorio
 Atributos:
 - **Código:** Código de identificación del laboratorio.
